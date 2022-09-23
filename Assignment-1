@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<style> 
+			.web {
+				background-color : black;
+				color : white ;
+				border : 1px solid red ;
+   				padding : 15px ; 
+				margin : 15px ;
+		</style>
+	</head>
+
+	<body style = "background-color : grey;">
+		<div class = "web"> <h2> HTML </h2>
+		<p style = "font-family : cursive"> HyperText Markup Language (HTML) is the set of markup symbols or codes inserted into a file intended for display on the Internet. </p/> </div>
+		<div class = "web"> <h2> CSS </h2> 
+		<p style = "font-family : cursive"> Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML. </p/></div>
+		<div class = "web"> <h2> JAVA SCRIPT </h2> 
+		<p style = "font-family : cursive"> JavaScript is a dynamic computer programming language. It is lightweight and most commonly used as a part of web pages, whose implementations allow client-side script to interact with the user and make dynamic pages. </p/></div>
+	</body>
+
+</html>
