@@ -4,19 +4,23 @@
 			.web {
 				background-color : black;
 				color : white ;
-				border : 1px solid red ;
+				border : 1px solid green ;
    				padding : 15px ; 
 				margin : 15px ;
 		</style>
 	</head>
 
-	<body style = "background-color : grey;">
+	<body style = "background-image: url('website.JPG');">
+		<h style ="color : white";>------------------------------------------------------------------------------------------WEB TECHNOLOGY----------------------------------------------------------------------------------------------<h>
 		<div class = "web"> <h2> HTML </h2>
-		<p style = "font-family : cursive"> <span style = "border : 1px solid green"> HyperText Markup Language (HTML) </span> is the set of markup symbols or codes inserted into a file intended for display on the Internet. </p/> </div>
+		<p style = "font-family : cursive"> <span style = "border : 1px solid green"> HyperText Markup Language </span> </p/> 
+		<p> -> It is the set of markup symbols or codes inserted into a file intended for display on the Internet.</p></div>
 		<div class = "web"> <h2> CSS </h2> 
-		<p style = "font-family : cursive"> <span style = "border : 1px solid green">  Cascading Style Sheets (CSS) </span> is a stylesheet language used to describe the presentation of a document written in HTML or XML. </p/></div>
-		<div class = "web"> <h2> JAVA SCRIPT </h2> 
-		<p style = "font-family : cursive"> <span style = "border : 1px solid green">  JavaScript </span>is a dynamic computer programming language. It is lightweight and most commonly used as a part of web pages, whose implementations allow client-side script to interact with the user and make dynamic pages. </p/></div>
+		<p style = "font-family : cursive"> <span style = "border : 1px solid green">  Cascading Style Sheets </span> </p/>		
+		<p> -> It is a stylesheet language used to describe the presentation of a document written in HTML or XML.</p></div>
+		<div class = "web"> <h2> JS </h2> 
+		<p style = "font-family : cursive"> <span style = "border : 1px solid green">  JavaScript </span></p/>
+		<p>-> is a dynamic computer programming language. It is lightweight and most commonly used as a part of web pages, whose implementations allow client-side script to interact with the user and make dynamic pages. </p></div>
 	</body>
 
-</html>
+</html> 
