@@ -1,0 +1,49 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+df =  pd.read_excel('sample_data/Advertising.xlsx' , index_col=0)
+df.head()
+
+X = df[['TV' , 'Radio' , 'Newspaper']]
+Y = df['Sales']
+
+w0 = 6
+w1 = 5
+w2 = 5.5
+w3 = 4.5
+
+Yh = w0 + w1 * X['TV'] + w2*X['Radio'] + w3*X['Newspaper']
+
+for i in range(0,1000):
+  Yh = w0 + w1 * X['TV'] + w2*X['Radio'] + + w3*X['Newspaper']
+
+
+  dew0 = -2 * ((Y - Yh)).mean()
+  dew1 = -2 * ((Y - Yh) * X['TV']).mean()
+  dew2= -2 * ((Y - Yh) * X['Radio']).mean()
+  dew3= -2 * ((Y - Yh) * X['Newspaper']).mean()
+
+  lr = 0.00001
+  w0 = w0 - lr * dew0
+  w1 = w1 - lr * dew1
+  w2 = w2 - lr * dew2
+  w3 = w3 - lr * dew2
+
+  error = ((Y - Yh)**2).mean()
+  print(i,error)
+  
+  
+  MeanAbsoluteError  = abs(Y-Yh).mean()
+print(MeanAbsoluteError)
+
+
+print(w0, w1, w2, w3)
+
+
+
+v = 67.4
+radio = 45.9
+newspaper = 100.5
+
+sales = w0 + w1 * tv + w2 * radio + w3 * newspaper
+print(sales)
